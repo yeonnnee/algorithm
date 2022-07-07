@@ -9,8 +9,8 @@
 
 |Question                            | Answer       |
 |------------------------------------------------|------------|
-|[3진법 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/68935)                  | [작성답안](./kakao/kakao/reverse-notation.js) |
-|[두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644)           |  [작성답안](./kakao/kakao/sum-two-number.js)|
+|[3진법 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/68935)                  | [작성답안](./kakao/reverse-notation.js) |
+|[두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644)           |  [작성답안](./kakao/sum-two-number.js)|
 |[[1차] 비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)                |  [작성답안](./kakao/secret-map.js)|
 |[로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484)   |  [작성답안](./kakao/lotto.js)|
 |[신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410)              |  [작성답안](./kakao/new-id.js)|
