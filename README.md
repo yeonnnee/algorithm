@@ -9,6 +9,7 @@
 
 |No   |Question                                                                                           | Answer                                           |
 |-----|---------------------------------------------------------------------------------------------------|--------------------------------------------------|
+|022  |[자연수 뒤집어 배열로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12932)       |   [작성답안](./kakao/makeArray-reversedNum.js)        |
 |021  |[핸드폰 번호 가리기](https://school.programmers.co.kr/learn/courses/30/lessons/12948)                |   [작성답안](./kakao/hide-phone-number.js)        |
 |020  |[x만큼 간격이 있는 n개의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12954)      |   [작성답안](./kakao/sum.js)                       |
 |019  |[3진법 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/68935)                     |   [작성답안](./kakao/reverse-notation.js)         |
