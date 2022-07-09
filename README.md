@@ -9,6 +9,8 @@
 
 |No   |Question                                                                                           | Answer                                           |
 |-----|---------------------------------------------------------------------------------------------------|--------------------------------------------------|
+|021  |[핸드폰 번호 가리기](https://school.programmers.co.kr/learn/courses/30/lessons/12948)                |   [작성답안](./kakao/hide-phone-number.js)        |
+|020  |[x만큼 간격이 있는 n개의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12954)      |   [작성답안](./kakao/sum.js)                       |
 |019  |[3진법 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/68935)                     |   [작성답안](./kakao/reverse-notation.js)         |
 |018  |[두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644)               |   [작성답안](./kakao/sum-two-number.js)           |
 |017  |[[1차] 비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)                   |   [작성답안](./kakao/secret-map.js)               |
