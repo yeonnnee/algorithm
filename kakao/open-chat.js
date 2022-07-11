@@ -5,43 +5,33 @@
 
 
 function solution(record) {
-  let recordMessages = [];
-  const statusArr = [];
-  const uidArr = [];
-
+  const changeUId = new Map();
+  const result = [];
+  
   record.forEach((x,i)=> {
     const status = x.split(' ')[0];
     const uid = x.split(' ')[1];
     const name = x.split(' ')[2];
-  
-    if(recordMessages.length === 0) {
-      recordMessages.push(x);
-    } else {
-      const idx = uidArr.indexOf(uid);
-      
-      if(idx >= 0) {
-        if(status.startsWith('C')) {
-          recordMessages[idx] = `${statusArr[idx]} ${uid} ${name}`;
-        } else {
-          recordMessages.push(x);
-          recordMessages.forEach((x, i) => {
-            if(x.split(' ')[1] === uid) {
-              recordMessages[i] = `${x.split(' ')[0]} ${uid} ${name}`
-            }
-          })
-        }
-      } else {
-        recordMessages.push(x);
-      }
+
+    // 다른 답안을 보니 위의 코드는 다음과 같이 보완할 수  있다.
+    // const [status, uid, name] = x.split(' ');
+
+    if(!status.startsWith('L')) {
+      changeUId.set(uid, name);
     }
-
-    statusArr.push(status);
-    uidArr.push(uid);
   });
 
-
-  return  recordMessages.map(x => {
-    const str = x.replace('Enter','들어왔습니다.').replace('Leave', '나갔습니다.').split(' ');
-    return `${str[2]}님이 ${str[0]}`;
+  record.forEach((x, i) =>{
+    if(!x.startsWith('C')) {
+      const status = x.replace('Enter','들어왔습니다.').replace('Leave', '나갔습니다.').split(' ')[0];
+      const uid = x.split(' ')[1];
+      result.push(`${changeUId.get(uid)}님이 ${status}`);
+    }
   });
+
+  return result;
+
 }
+
+
+
